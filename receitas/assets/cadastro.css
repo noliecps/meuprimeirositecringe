@@ -1,0 +1,73 @@
+/* Formulário de Cadastro */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Cor de fundo do formulário */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group input {
+  flex-grow: 1;
+}
+
+button {
+  background-color: #4CAF50; /* Cor do botão */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos adicionais */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Cor do título */
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666; /* Cor do rodapé */
+}
+
+/* Estilo para o título "Efetue seu Cadastro" */
+h1 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Estilo da fonte */
+  color: #333; /* Cor do título */
+}

@@ -1,0 +1,38 @@
+.receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  overflow-y: auto; /* Barra de rolagem vertical */
+}
+
+.receita {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+
+.receita h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.receita img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.receita ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.receita p {
+  text-align: justify;
+  margin-top: 10px;
+}
